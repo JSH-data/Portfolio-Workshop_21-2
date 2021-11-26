@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Footer from "../components/Layout/Footer";
 import Nav from "../components/Layout/Navbar";
 import styles from "../styles/Layout/home.module.css";
@@ -12,7 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <div className={styles.main}>아 저는 한조입니다!</div>
+      <main>
+        <div className={styles.main}>여기는 본문입니당</div>
+      </main>
       <Footer />
     </>
   );

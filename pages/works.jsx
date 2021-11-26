@@ -1,3 +1,23 @@
+import Image from "next/image";
+import Link from "next/Link";
+import Footer from "../components/Layout/Footer";
+import Nav from "../components/Layout/Navbar";
+import styles from "../styles/works.module.css";
+
 export default function Works() {
-  return <div>잠시만요 이쪽은 아직 들어오시면 안됩니다 뒤로 꺼지세요!</div>;
+  return (
+    <>
+      <Nav />
+      <main className={styles.main}>
+        <Image src="/test/works.png" width="300px" height="700px" />
+      </main>
+      <Link href="/works/[name]" as="/works/tras">
+        TRAS
+      </Link>
+      <Link href="/works/[name]" as="/works/ctrlf">
+        CtrlF
+      </Link>
+      <Footer />
+    </>
+  );
 }
