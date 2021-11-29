@@ -9,7 +9,12 @@ export default function Works() {
     <>
       <Nav />
       <main className={styles.main}>
-        <Image src="/test/works.png" width="300px" height="700px" />
+        <Image
+          src="/test/works.png"
+          width="300px"
+          height="700px"
+          alt="a테스트"
+        />
       </main>
       <Link href="/works/[name]" as="/works/tras">
         TRAS
