@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Footer from "../components/Layout/Footer";
 import Nav from "../components/Layout/Navbar";
@@ -9,12 +8,7 @@ export default function Works() {
     <>
       <Nav />
       <main className={styles.main}>
-        <Image
-          src="/test/works.png"
-          width="300px"
-          height="700px"
-          alt="a테스트"
-        />
+        <img src="/test/works.png" alt="a테스트" />
       </main>
       <Link href="/works/[name]" as="/works/tras">
         TRAS

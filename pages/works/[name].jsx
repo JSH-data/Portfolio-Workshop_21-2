@@ -1,3 +1,7 @@
 export default function Workdetail() {
-  return <div>반갑습니다!</div>;
+  return (
+    <div>
+      <main>반값세일</main>
+    </div>
+  );
 }

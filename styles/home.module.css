@@ -1,0 +1,40 @@
+.main {
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.road {
+  margin-top: 50px;
+  width: 70%;
+  z-index: 2;
+}
+
+.introduction {
+  position: absolute;
+  width: 90%;
+  height: 250px;
+  background-color: bisque;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  -webkit-box-shadow: 4px 5px 4px 1px rgba(0, 0, 0, 0.43);
+  box-shadow: 4px 5px 4px 1px rgba(0, 0, 0, 0.43);
+  border-radius: 15px;
+}
+
+.tras {
+  bottom: 150px;
+  position: absolute;
+  width: 80px;
+  left: 20px;
+}
+
+.ctrlf {
+  bottom: 280px;
+  position: absolute;
+  width: 17%;
+  right: 30px;
+}

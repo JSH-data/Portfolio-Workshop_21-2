@@ -1,6 +1,40 @@
 .main {
-  background: no-repeat center url("../../public/images/home/road.png");
-  background-size: contain;
+  /* background: no-repeat center url("../../public/images/home/road.png");
+  background-size: contain; */
   width: 100%;
-  height: 110vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.road {
+  width: 70%;
+}
+
+.introduction {
+  position: absolute;
+  width: 90%;
+  height: 250px;
+  background-color: bisque;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tras {
+  bottom: 100px;
+  position: absolute;
+  width: 80px;
+  left: 20px;
+}
+
+.ctrlf {
+  bottom: 280px;
+  position: absolute;
+  width: 17%;
+  right: 30px;
+}
+
+.line__ctrlf {
+  position: absolute;
 }
