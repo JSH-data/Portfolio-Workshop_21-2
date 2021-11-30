@@ -3,6 +3,7 @@
   object-fit: cover;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .road {
@@ -14,7 +15,7 @@
 .introduction {
   position: absolute;
   width: 90%;
-  height: 250px;
+  height: 15rem;
   background-color: bisque;
   top: 100px;
   left: 50%;
@@ -26,15 +27,29 @@
 }
 
 .tras {
-  bottom: 150px;
-  position: absolute;
-  width: 80px;
-  left: 20px;
+  width: 30%;
+  position: relative;
+  top: 64%;
+  right: 10%;
 }
 
 .ctrlf {
-  bottom: 280px;
+  width: 30%;
+  position: relative;
+  top: 40%;
+  right: -70%;
+}
+
+.wrap__tras {
   position: absolute;
-  width: 17%;
-  right: 30px;
+  width: 70%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.wrap__ctrlf {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  margin-top: 50px;
 }

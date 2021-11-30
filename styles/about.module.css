@@ -1,0 +1,15 @@
+.skill__name {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.skill__img {
+  width: 50px;
+  margin-right: 8px;
+}
+
+.education,
+.award {
+  list-style: none;
+  padding-left: 0px;
+}

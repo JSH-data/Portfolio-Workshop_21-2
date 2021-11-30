@@ -1,22 +1,40 @@
 import Link from "next/link";
-import Footer from "../components/Layout/Footer";
-import Nav from "../components/Layout/Navbar";
+import Work from "../components/Works/work";
 import styles from "../styles/works.module.css";
 
 export default function Works() {
   return (
     <>
-      <Nav />
-      <main className={styles.main}>
-        <img src="/test/works.png" alt="a테스트" />
+      <main className={styles.work__list}>
+        <div className={styles.works__catergory}>
+          <span>
+            Develop<div className={styles.deco}></div>
+          </span>
+          &nbsp;&nbsp;
+          <span>
+            Design<div className={styles.deco}></div>
+          </span>
+          &nbsp;&nbsp;
+          <span>
+            Video<div className={styles.deco}></div>
+          </span>
+          &nbsp;
+        </div>
+        <Work
+          image={"/images/work/tras_page.png"}
+          title={"Tras"}
+          summary={"Front-end, CI/CD"}
+        />
+        <Work
+          image={"/images/work/ctrlf_page.png"}
+          title={"Ctrlf"}
+          summary={"Front-end, CI/CD"}
+        />
       </main>
-      <Link href="/works/[name]" as="/works/tras">
-        TRAS
-      </Link>
+      {/* 
       <Link href="/works/[name]" as="/works/ctrlf">
         CtrlF
-      </Link>
-      <Footer />
+      </Link> */}
     </>
   );
 }

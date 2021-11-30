@@ -1,4 +1,55 @@
-.main {
+.work__list {
   width: 100%;
-  height: 120vh;
+}
+
+.works__catergory {
+  padding: 15px 0;
+  font-size: large;
+  font-weight: bold;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+}
+
+.works__catergory > span {
+  z-index: 99;
+}
+
+.deco {
+  width: 40px;
+  height: 20px;
+  background-color: blue;
+  position: relative;
+  top: -35%;
+  right: -35%;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+/* 컴포넌트 */
+
+.work {
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work__image,
+.work__title,
+.work__summary {
+  width: 90%;
+}
+
+.work__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.work__summary {
+  font-size: 15px;
+  font-weight: 600;
 }

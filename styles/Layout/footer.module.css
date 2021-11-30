@@ -1,0 +1,41 @@
+.footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.decorator {
+  right: 0;
+  left: 40%;
+  position: relative;
+  opacity: 40%;
+  width: 50px;
+  height: 20px;
+  bottom: 17px;
+  background-color: aqua;
+  z-index: 1;
+}
+
+.footer__title {
+  font-size: larger;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.footer__icons {
+  width: 73%;
+  object-fit: contain;
+}
+
+.icons {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.footer__text {
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
