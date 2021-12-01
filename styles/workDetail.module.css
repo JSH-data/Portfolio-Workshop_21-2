@@ -1,0 +1,45 @@
+.duration {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.image__main {
+  width: 100%;
+}
+
+.image__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tech_list {
+  width: 100%;
+}
+
+.tech {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tech__container {
+  width: 35%;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.tech__img {
+  width: 100%;
+}
+.tech__text {
+  width: 65%;
+  text-align: justify;
+}

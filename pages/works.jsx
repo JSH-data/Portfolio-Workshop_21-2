@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Work from "../components/Works/work";
+import Work from "../components/Works/Work";
 import styles from "../styles/works.module.css";
 
 export default function Works() {

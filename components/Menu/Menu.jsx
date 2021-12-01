@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import styles from "../../styles/menu.module.css";
 
 export default function Menu({ setOnMenu }) {
+  const [workDetail, setWorkDetail] = useState(false);
   const router = useRouter();
   const closeMenu = () => setOnMenu(false);
   const moveToWorks = () => {
@@ -21,6 +22,9 @@ export default function Menu({ setOnMenu }) {
     router.push("/reference");
     setOnMenu(false);
   };
+  const detailMenu = () => {
+    setWorkDetail(true);
+  };
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -37,7 +41,8 @@ export default function Menu({ setOnMenu }) {
         About
       </div>
       <div className={styles.text} onClick={moveToWorks}>
-        Works
+        Works <span onClick={detailMenu}>^</span>
+        {workDetail && <div>Tras CtrlF</div>}
       </div>
       <div className={styles.text} onClick={moveToContact}>
         Contact

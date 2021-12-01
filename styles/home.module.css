@@ -45,6 +45,7 @@
   width: 70%;
   height: 100%;
   margin-top: 50px;
+  z-index: 99;
 }
 
 .wrap__ctrlf {
@@ -52,4 +53,5 @@
   width: 70%;
   height: 100%;
   margin-top: 50px;
+  z-index: 98;
 }

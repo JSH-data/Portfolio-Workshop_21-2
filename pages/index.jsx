@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../components/Layout/Footer";
 import DottedLine from "../components/Item/DottedLine";
 import styles from "../styles/home.module.css";
 import { useRouter } from "next/router";
@@ -35,12 +34,6 @@ export default function Home() {
             onClick={moveToTras}
           />
         </div>
-        {/* <DottedLine
-          className={styles.line__tras}
-          width={"40%"}
-          right={"130px"}
-          bottom={"10vh"}
-        /> */}
         <div className={styles.wrap__ctrlf}>
           <img
             className={styles.ctrlf}
@@ -48,12 +41,6 @@ export default function Home() {
             onClick={moveToCtrlf}
           />
         </div>
-        {/* <DottedLine
-          className={styles.line__ctrlf}
-          width={"40%"}
-          right={"70px"}
-          bottom={"320px"}
-        /> */}
       </main>
     </>
   );

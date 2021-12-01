@@ -21,5 +21,54 @@ a {
 }
 
 main {
-  margin-top: 60px;
+  margin-top: 80px;
+  padding: 0 10px;
+}
+
+#splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 101%;
+  height: 101%;
+  background-color: #f2f2f2;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  animation: 1s ease 1.5s 1 slideout;
+}
+
+@keyframes slideout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+#splash__img {
+  width: 22%;
+  animation: 1s ease 0s 1 running slidein;
+}
+
+#splash__text {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: -13.5%;
+  animation: 1s ease 0s 1 running slidein;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

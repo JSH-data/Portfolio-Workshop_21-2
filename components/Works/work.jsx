@@ -5,7 +5,7 @@ export default function Work({ image, title, summary }) {
   const router = useRouter();
 
   const moveToDetail = () => {
-    router.push(`/works/${title}`);
+    router.push(`/works/${title.toLowerCase()}`);
   };
 
   return (
