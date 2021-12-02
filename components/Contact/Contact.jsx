@@ -1,3 +1,5 @@
+import styles from "../../styles/contact.module.css";
+
 export default function Contact({ image, url }) {
   return (
     <div>

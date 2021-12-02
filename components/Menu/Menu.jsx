@@ -15,7 +15,7 @@ export default function Menu({ setOnMenu }) {
     setOnMenu(false);
   };
   const moveToContact = () => {
-    router.push("/contact");
+    router.push("/contacts");
     setOnMenu(false);
   };
   const moveToReference = () => {
@@ -34,6 +34,7 @@ export default function Menu({ setOnMenu }) {
   }, []);
   return (
     <div className={styles.menu}>
+      <div className={styles.back}></div>
       <div className={styles.text} onClick={closeMenu}>
         close
       </div>

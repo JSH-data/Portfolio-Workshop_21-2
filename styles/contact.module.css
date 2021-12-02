@@ -1,0 +1,49 @@
+.contact {
+  padding-top: 20px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.chat {
+  margin-bottom: 10px;
+  width: 75%;
+  align-self: center;
+}
+
+.left {
+  background-image: url("../public/images/contact/textleft.png");
+}
+
+.right {
+  background-image: url("../public/images/contact/textright.png");
+}
+
+.man {
+  align-self: flex-end;
+  width: 60%;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  width: 85%;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+}
+
+.contact__icon {
+  width: 70px;
+  height: 70px;
+  margin-left: 2%;
+}
+
+.contact__text {
+  margin-right: 4%;
+}
