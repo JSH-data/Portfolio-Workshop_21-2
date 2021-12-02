@@ -1,4 +1,4 @@
-import Work from "../components/Works/Work.jsx";
+import Work from "../components/Works/work.jsx";
 import styles from "../styles/works.module.css";
 
 export default function Works() {
