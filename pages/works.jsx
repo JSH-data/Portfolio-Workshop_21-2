@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Work from "../components/Works/Work";
+import Work from "../components/Works/Work.jsx";
 import styles from "../styles/works.module.css";
 
 export default function Works() {
@@ -31,10 +30,6 @@ export default function Works() {
           summary={"Front-end, CI/CD"}
         />
       </main>
-      {/* 
-      <Link href="/works/[name]" as="/works/ctrlf">
-        CtrlF
-      </Link> */}
     </>
   );
 }
