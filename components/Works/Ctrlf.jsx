@@ -43,21 +43,33 @@ export default function Ctrlf() {
             className={styles.image__main}
           />
           매주 스프린트
+          <br />
+          <br />
+          <br />
           <img
             src="/images/work/ctrlf_design.png"
             className={styles.image__main}
           />
           디자이너가 업데이트하는 어도비
+          <br />
+          <br />
+          <br />
           <img
             src="/images/work/ctrlf_swea.png"
             className={styles.image__main}
           />
           백엔드가 만드는 스웨거
+          <br />
+          <br />
+          <br />
           <img
             src="/images/work/ctrlf_trello.png"
             className={styles.image__main}
           />
           프로젝트를 관리하는 트렐로
+          <br />
+          <br />
+          <br />
           <br />
           <div>작업 내용</div>
           <br />

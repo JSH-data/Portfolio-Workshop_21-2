@@ -39,16 +39,25 @@ export default function Tras() {
             className={styles.image__main}
           />
           매주 회의 맴버 사진
+          <br />
+          <br />
+          <br />
           <img
             src="/images/work/tras_schedule.png"
             className={styles.image__main}
           />
           보고서 계획서
+          <br />
+          <br />
+          <br />
           <img
             src="/images/work/tras_machine.png"
             className={styles.image__main}
           />
           머신러닝의 변천사
+          <br />
+          <br />
+          <br />
           <div className={styles.tech_list}>
             <h3 className={styles.sub_title}>기술 스택</h3>
             {work.tech.map((v, i) => {
