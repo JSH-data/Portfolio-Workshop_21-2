@@ -37,7 +37,9 @@ export default function Home() {
             프론트엔드는 모든 직군과 끊임 없이 소통하며 개발해야 한다고
             생각합니다. <br /> 미디어를 전공한 저는 소통하는 과정을 즐거워
             합니다.
-            <div onClick={moveToAbout}>More</div>
+            <div className={styles.btn__about} onClick={moveToAbout}>
+              More
+            </div>
           </div>
         </div>
         <div className={styles.wrap__tras}>

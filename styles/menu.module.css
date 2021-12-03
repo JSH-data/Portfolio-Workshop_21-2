@@ -24,4 +24,13 @@
   color: black;
   font-size: 30px;
   opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.triangle {
+  font-size: 20px;
+}
+
+.hidden {
+  margin-bottom: 10px;
 }

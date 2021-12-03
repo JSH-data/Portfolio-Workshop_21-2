@@ -13,13 +13,15 @@
 }
 
 .skill__name {
-  font-size: 20px;
+  font-size: 18px;
   margin: 15px 0;
+  color: #323875;
 }
 
 .skill__img {
   width: 50px;
   margin-right: 8px;
+  margin-bottom: 20px;
 }
 
 .education,
@@ -31,7 +33,7 @@
 .goal {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .list {
@@ -46,4 +48,14 @@
 
 .head {
   padding: 20px 0;
+}
+
+.ux {
+  text-align: end;
+}
+
+.goal__text {
+  font-size: 19px;
+  padding-bottom: 20px;
+  text-align: justify;
 }

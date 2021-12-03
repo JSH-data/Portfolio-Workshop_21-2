@@ -68,10 +68,15 @@ export default function Menu({ setOnMenu }) {
         About
       </div>
       <div className={styles.text} onClick={detailMenu}>
-        Works <span ref={toggle}>▽</span>
+        Works{" "}
+        <span className={styles.triangle} ref={toggle}>
+          ▽
+        </span>
         {workDetail && (
           <>
-            <div onClick={moveToTras}>&nbsp;&nbsp;Tras</div>{" "}
+            <div className={styles.hidden} onClick={moveToTras}>
+              &nbsp;&nbsp;Tras
+            </div>{" "}
             <div onClick={moveToCtrlf}>&nbsp;&nbsp;CtrlF</div>
           </>
         )}

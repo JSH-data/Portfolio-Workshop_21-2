@@ -33,10 +33,6 @@ export const data = {
         "Design",
         "https://xd.adobe.com/view/ff5ccdb3-0aed-4ecb-880e-2978cac25483-aa0f/",
       ],
-      // [
-      //   "Youtube",
-      //   "https://www.youtube.com/c/%ED%95%9C%EB%81%97%EC%B0%A8IT/videos",
-      // ],
     ],
   },
   tras: {
@@ -45,17 +41,18 @@ export const data = {
     description:
       "Tras는 빅데이터 스터디에서 만난 각기 다른 학과생 3명의 아이디어에서 출발한 프로젝트입니다. 데이터 글로만 공부하는 것이 아닌 직접 만져보면서 가치를 창출해보고자 하였습니다. ",
     image1: "/images/work/tras_page.png",
-    image2: "/images/work/ctrlf_issue.png",
+    image2: "/images/work/tras_kmeas.png",
     team: "프로젝트 구성원은 미디어, 물리학과를 재학중인 비전공자 2명과 소프트웨어 학부에 재학 중인 전공자 1명으로 이루어져있었습니다.",
     job: "저는 데이터 수집과 전처리과정을 맡았습니다. 영미권 사람들이 가장 많이 찾는 관광 사이트인 TripAdvisor의 데이터를 크롤러를 제작하여 수집하고, 수집된 데이터를 csv 파일로 저장하고 Python의 Pandas 라이브러리를 활용하여 가공한 뒤 머신러닝 담당 팀원에게 전달하였습니다.",
-    strategy: "",
+    strategy:
+      "저희 팀은 매주 학교에 프로젝트의 경과를 보고서로 만들어서 제출해야 했기 때문에 매주 수요일마다 모여 보고서를 작성하고 그 주에 해결해야 할 일을 정하였습니다.",
     tech: [
       {
-        image: "/images/work/nextjs.png",
+        image: "/images/work/selenium.png",
         text: "기존에는 정적 크롤링만 지원하는 뷰티풀스프에서 더 많은 데이터를 자동으로 수집하기 위해 셀레니움을 활용하여 자동 클릭 및 자동 스크롤 기능을 구현하고 동적으로 페이지를 이동하면서 크롤링할 수 있도록 만들었습니다. ",
       },
       {
-        image: "/images/work/recoil.png",
+        image: "/images/work/python.png",
         text: "파이썬을 메인 언어로 채택한 이유는 저희가 사용할 대부분의 작업을 지원해주었기 때문입니다. 파이썬의 강력한 페이지 제작 프레임워크인 장고, 크롤러와 전처리를 위한 라이브러리들 또 머신러닝을 위한 각종 라이브러리까지 모든 것을 한 언어로 통합하여 개발할 수 있는 장점이 있었기 때문에 선택하게 되었습니다. ",
       },
       {
@@ -65,6 +62,6 @@ export const data = {
     ],
     learn:
       "제 인생 첫 개발 프로젝트였던 Tras 덕분에 가장 많이 성장할 수 있었던 것 같습니다. 성장은 했지만 저의 부족한 부분 때문에 가장 아쉬움이 많이 남는 프로젝트였던 것 같습니다. 다행이 좋은 팀원을 만난 덕분에 많은 도움을 받으면서 맡은 일을 수행해 나갈 수 있었습니다. 개발에 기본이 되는 Git을 이 프로젝트에서 처음 사용해 보았습니다. 또한 공식문서를 읽는 방법과 거기에서 내가 원하는 것을 뽑아내는 능력을 키울 수 있었습니다. 프로젝트 초기에는 내가 원하는 것을 인터넷에서 레퍼런스를 찾아내는 것이 굉장히 어려웠습니다.",
-    urls: [["github", "https://github.com/ThinLineIT/CtrlF_Frontend"]],
+    urls: [["github", "https://github.com/JSH-data/tripReviewAnalysisSystem"]],
   },
 };

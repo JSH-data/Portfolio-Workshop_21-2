@@ -30,7 +30,7 @@ export default function About() {
         <div className={styles.title__sub}>개발자 정승화입니다.</div>
         <h2 className={styles.head}>저는 2가지 목표를 갖고 있습니다. </h2>
         <div className={styles.goal}>&quot;믿고 찾을 수 있는 개발자 &quot;</div>
-        <p>
+        <p className={styles.goal__text}>
           첫 번째 목표는 문제가 생겼을때 믿고 찾을 수 있는 개발자가 되고
           싶습니다. 프론트엔드는 모든 개발 분야와 맞닿아 있는 중요한
           연결점이라고 생각합니다. 미디어커뮤니케이션을 전공한 저는 사람들과
@@ -38,17 +38,17 @@ export default function About() {
           문제점을 파악하고 팀원들과 적절하게 소통할 줄아는 그런 개발자가 되고
           싶습니다.
         </p>
-        <div className={styles.goal}>
+        <div className={`${styles.goal} ${styles.ux}`}>
           &quot;UX를 중요하게 여기는 개발자 &quot;
         </div>
-        <p>
+        <p className={styles.goal__text}>
           두 번째 목표는 UX를 중요하게 여길 줄 아는 개발자가 되는 것입니다.
           프론트엔드는 모든 개발직군의 연결점이 될 수 있으면서 사용자와 유일하게
           맞닿는 분야이기도 합니다. 그렇기 때문에 UX에 가장 민감하게 반응해야
           합니다. 사용자가 어떤 환경에서든지 동일한 UX를 느낄 수 있도록 도울 수
           있는 개발자가 되고 싶습니다.
         </p>
-        <h3>My Skills</h3>
+        <h2>My Skills</h2>
         <Skill position={"Front-End"} images={front} />
         <Skill position={"Back-End"} images={back} />
         <Skill position={"CI/CD"} images={CICD} />
