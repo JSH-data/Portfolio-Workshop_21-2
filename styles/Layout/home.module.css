@@ -38,3 +38,9 @@
 .line__ctrlf {
   position: absolute;
 }
+
+#rock1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}

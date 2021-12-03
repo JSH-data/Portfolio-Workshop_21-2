@@ -16,7 +16,7 @@
   position: absolute;
   width: 90%;
   height: 15rem;
-  background-color: bisque;
+  background-color: #d1bcbc;
   top: 100px;
   left: 50%;
   transform: translateX(-50%);
@@ -88,4 +88,28 @@
 .btn__about {
   margin-top: 30px;
   font-size: 18px;
+}
+
+.rock1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 30px;
+  right: 21px;
+}
+
+.rock2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -70px;
+  left: 21px;
+}
+
+.rock3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 420px;
+  left: 60px;
 }

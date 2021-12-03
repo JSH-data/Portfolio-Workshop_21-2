@@ -42,6 +42,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <img src="/images/home/rock.png" className={styles.rock1} />
+        <img src="/images/home/rock.png" className={styles.rock2} />
+        <img src="/images/home/rock.png" className={styles.rock3} />
         <div className={styles.wrap__tras}>
           <img
             className={styles.tras}
