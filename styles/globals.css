@@ -73,7 +73,7 @@ main {
   font-weight: bold;
   position: relative;
   top: -105px;
-  animation: 1s ease 0s 1 running slidein;
+  animation: 0s ease 0s 1 running slidein;
 }
 
 @keyframes slidein {
