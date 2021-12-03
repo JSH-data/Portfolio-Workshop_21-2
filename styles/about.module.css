@@ -1,3 +1,17 @@
+.title__main {
+  font-size: 40px;
+  color: #f54767;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title__sub {
+  font-size: 30px;
+  font-weight: bold;
+  color: #323875;
+  text-align: end;
+}
+
 .skill__name {
   font-size: 20px;
   margin: 15px 0;
@@ -12,4 +26,24 @@
 .award {
   list-style: none;
   padding-left: 0px;
+}
+
+.goal {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.list {
+  padding-left: 0;
+}
+
+.education,
+.award {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.head {
+  padding: 20px 0;
 }

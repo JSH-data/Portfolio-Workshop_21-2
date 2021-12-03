@@ -1,9 +1,21 @@
+@font-face {
+  font-family: "NIX";
+  font-weight: bold;
+  src: url("../public/fonts/NIXGONFONTSB2.0.otf") format("opentype");
+}
+@font-face {
+  font-family: "NIX";
+  font-weight: normal;
+  src: url("../public/fonts/NIXGONFONTSM2.0.otf") format("opentype");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: "NIX", sans-serif;
   height: 110vh;
   background-color: #f2f2f2;
 }
@@ -52,7 +64,7 @@ main {
 }
 
 #splash__img {
-  width: 22%;
+  width: 80px;
   animation: 1s ease 0s 1 running slidein;
 }
 
@@ -60,7 +72,7 @@ main {
   color: white;
   font-weight: bold;
   position: relative;
-  top: -13.5%;
+  top: -105px;
   animation: 1s ease 0s 1 running slidein;
 }
 

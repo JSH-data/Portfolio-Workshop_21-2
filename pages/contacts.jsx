@@ -15,7 +15,8 @@ export default function Contacts() {
       <div className={`${styles.content} ${styles.left}`}>
         <img
           src="/images/contact/github.png"
-          className={styles.contact__icon}
+          id={styles.gits}
+          className={`${styles.contact__icon} ${styles.gits}`}
         />
         <div className={styles.contact__text}>
           그동안 개발했던 코드를 올려놓은 깃허브입니다.{" "}
@@ -23,47 +24,28 @@ export default function Contacts() {
       </div>
       <div className={`${styles.content} ${styles.right}`}>
         <img
-          src="/images/contact/github.png"
+          src="/images/contact/linked.png"
           className={styles.contact__icon}
         />
         <div className={styles.contact__text}>
-          그동안 개발했던 코드를 올려놓은 깃허브입니다.{" "}
+          저의 더 자세한 경력을 갖고 있는 링크드인입니다.{" "}
         </div>
       </div>
       <div className={`${styles.content} ${styles.left}`}>
         <img
-          src="/images/contact/github.png"
+          src="/images/contact/notion.png"
           className={styles.contact__icon}
         />
         <div className={styles.contact__text}>
-          그동안 개발했던 코드를 올려놓은 깃허브입니다.{" "}
+          공부하면서 막히는 부분, 새롭게 알게된 점을 정리한 블로그입니다.{" "}
         </div>
       </div>
       <div className={`${styles.content} ${styles.right}`}>
-        <img
-          src="/images/contact/github.png"
-          className={styles.contact__icon}
-        />
+        <img src="/images/contact/email.png" className={styles.contact__icon} />
         <div className={styles.contact__text}>
-          그동안 개발했던 코드를 올려놓은 깃허브입니다.{" "}
+          매일 하루에 두 번싹 확인하고 있는 이메일 주소입니다.{" "}
         </div>
       </div>
-
-      {/* <img
-        className={styles.chat}
-        src="/images/contact/textright.png
-      "
-      />
-      <img
-        className={`${styles.chat} ${styles.left}`}
-        src="/images/contact/textleft.png
-      "
-      />
-      <img
-        className={styles.chat}
-        src="/images/contact/textright.png
-      "
-      /> */}
       <img
         src="/images/contact/man.png"
         className={`${styles.img} ${styles.man}`}

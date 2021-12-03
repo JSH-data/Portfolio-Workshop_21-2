@@ -4,7 +4,9 @@ export default function Url({ title, url }) {
   return (
     <div>
       <h4>{title}</h4>
-      <a href={url}>{url}</a>
+      <div>
+        <a href={url}>{url}</a>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,27 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 import styles from "../../styles/menu.module.css";
 
 export default function Menu({ setOnMenu }) {
   const [workDetail, setWorkDetail] = useState(false);
   const router = useRouter();
+  const toggle = useRef(null);
   const closeMenu = () => setOnMenu(false);
+
+  const moveToTras = () => {
+    router.push("/works/tras");
+    setOnMenu(false);
+  };
+
+  const moveToCtrlf = () => {
+    router.push("/works/ctrlf");
+    setOnMenu(false);
+  };
+
+  const moveToHome = () => {
+    router.push("/");
+    setOnMenu(false);
+  };
   const moveToWorks = () => {
     router.push("/works");
     setOnMenu(false);
@@ -18,12 +34,19 @@ export default function Menu({ setOnMenu }) {
     router.push("/contacts");
     setOnMenu(false);
   };
+
   const moveToReference = () => {
     router.push("/reference");
     setOnMenu(false);
   };
   const detailMenu = () => {
-    setWorkDetail(true);
+    if (workDetail) {
+      toggle.current.innerText = "▽";
+      setWorkDetail(false);
+    } else {
+      toggle.current.innerText = "△";
+      setWorkDetail(true);
+    }
   };
 
   useEffect(() => {
@@ -36,14 +59,22 @@ export default function Menu({ setOnMenu }) {
     <div className={styles.menu}>
       <div className={styles.back}></div>
       <div className={styles.text} onClick={closeMenu}>
-        close
+        X
+      </div>
+      <div className={styles.text} onClick={moveToHome}>
+        Home
       </div>
       <div className={styles.text} onClick={moveToAbout}>
         About
       </div>
-      <div className={styles.text} onClick={moveToWorks}>
-        Works <span onClick={detailMenu}>^</span>
-        {workDetail && <div>Tras CtrlF</div>}
+      <div className={styles.text} onClick={detailMenu}>
+        Works <span ref={toggle}>▽</span>
+        {workDetail && (
+          <>
+            <div onClick={moveToTras}>&nbsp;&nbsp;Tras</div>{" "}
+            <div onClick={moveToCtrlf}>&nbsp;&nbsp;CtrlF</div>
+          </>
+        )}
       </div>
       <div className={styles.text} onClick={moveToContact}>
         Contact

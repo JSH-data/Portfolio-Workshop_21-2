@@ -1,10 +1,13 @@
 import Head from "next/head";
-import DottedLine from "../components/Item/DottedLine";
 import styles from "../styles/home.module.css";
 import { useRouter } from "next/router";
 
 export default function Home() {
   const router = useRouter();
+
+  const moveToAbout = () => {
+    router.push("/about");
+  };
 
   const moveToCtrlf = () => {
     router.push("/works/ctrlf");
@@ -24,8 +27,18 @@ export default function Home() {
         <img className={styles.road} src="/images/home/road.png" />
 
         <div className={styles.introduction}>
-          <div className={styles.picture}></div>
-          <div>도전을 즐기는 개발자 정승화 입니다. </div>
+          <div className={styles.introduction__left}>
+            <div className={styles.picture}>
+              <img src="/images/about/mimo.jpg" className={styles.mimo} />
+            </div>
+            <div>도전하는 개발자</div>
+          </div>
+          <div className={styles.introduction__right}>
+            프론트엔드는 모든 직군과 끊임 없이 소통하며 개발해야 한다고
+            생각합니다. <br /> 미디어를 전공한 저는 소통하는 과정을 즐거워
+            합니다.
+            <div onClick={moveToAbout}>More</div>
+          </div>
         </div>
         <div className={styles.wrap__tras}>
           <img

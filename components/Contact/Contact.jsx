@@ -1,10 +1,10 @@
 import styles from "../../styles/contact.module.css";
 
-export default function Contact({ image, url }) {
+export default function Contact({ image, text }) {
   return (
     <div>
       <img src={image} />
-      <div>{url}</div>
+      <div>{text}</div>
     </div>
   );
 }
