@@ -39,6 +39,14 @@ export default function Workdetail() {
             <h3 className={styles.sub_title}>팀 구성</h3>
             <div>{work.team}</div>
           </div>
+          <br />
+          <br />
+          <br />
+          <div>작업 내용</div>
+          <br />
+          <br />
+          <br />
+
           <div className={styles.tech_list}>
             <h3 className={styles.sub_title}>기술 스택</h3>
             {work.tech.map((v, i) => {
