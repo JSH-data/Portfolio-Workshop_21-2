@@ -6,7 +6,7 @@ export default function Rotate() {
   const dom = useRef(null);
   const scrollH = useRef(0);
   const moveScroll = (h) => {
-    dom.current.scroll({
+    dom.current.scrollTo({
       top: h,
       behavior: "smooth",
     });
