@@ -1,0 +1,37 @@
+.first {
+  height: 105vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  align-items: center;
+}
+
+.box {
+  height: 50px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  margin: 20px 0;
+}
+
+.text {
+  font-size: 46px;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.self {
+  font-size: 30px;
+  font-weight: bold;
+}

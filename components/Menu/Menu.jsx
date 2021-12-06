@@ -67,9 +67,9 @@ export default function Menu({ setOnMenu }) {
       <div className={styles.text} onClick={moveToAbout}>
         About
       </div>
-      <div className={styles.text} onClick={detailMenu}>
-        Works{" "}
-        <span className={styles.triangle} ref={toggle}>
+      <div className={styles.text}>
+        <span onClick={moveToWorks}> Works </span>{" "}
+        <span className={styles.triangle} ref={toggle} onClick={detailMenu}>
           ▽
         </span>
         {workDetail && (

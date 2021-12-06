@@ -1,21 +1,9 @@
 import Head from "next/head";
+import Road from "../components/Home/Road";
+import Rotate from "../components/Home/Rotate";
 import styles from "../styles/home.module.css";
-import { useRouter } from "next/router";
 
 export default function Home() {
-  const router = useRouter();
-
-  const moveToAbout = () => {
-    router.push("/about");
-  };
-
-  const moveToCtrlf = () => {
-    router.push("/works/ctrlf");
-  };
-
-  const moveToTras = () => {
-    router.push("/works/tras");
-  };
   return (
     <>
       <Head>
@@ -24,41 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <img className={styles.road} src="/images/home/road.png" />
-
-        <div className={styles.introduction}>
-          <div className={styles.introduction__left}>
-            <div className={styles.picture}>
-              <img src="/images/about/mimo.jpg" className={styles.mimo} />
-            </div>
-            <div>도전하는 개발자</div>
-          </div>
-          <div className={styles.introduction__right}>
-            프론트엔드는 모든 직군과 끊임 없이 소통하며 개발해야 한다고
-            생각합니다. <br /> 미디어를 전공한 저는 소통하는 과정을 즐거워
-            합니다.
-            <div className={styles.btn__about} onClick={moveToAbout}>
-              More
-            </div>
-          </div>
-        </div>
-        <img src="/images/home/rock.png" className={styles.rock1} />
-        <img src="/images/home/rock.png" className={styles.rock2} />
-        <img src="/images/home/rock.png" className={styles.rock3} />
-        <div className={styles.wrap__tras}>
-          <img
-            className={styles.tras}
-            src="/images/home/work_TRAS.png"
-            onClick={moveToTras}
-          />
-        </div>
-        <div className={styles.wrap__ctrlf}>
-          <img
-            className={styles.ctrlf}
-            src="/images/home/work_ctrlf.png"
-            onClick={moveToCtrlf}
-          />
-        </div>
+        <Rotate />
+        <Road />
       </main>
     </>
   );

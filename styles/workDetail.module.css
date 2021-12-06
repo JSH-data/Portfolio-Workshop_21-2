@@ -1,3 +1,8 @@
+.work_main {
+  margin-top: 150px;
+  font-size: 20px;
+}
+
 .duration {
   width: 100%;
   text-align: center;
@@ -46,8 +51,4 @@
 
 .sub_title {
   color: #f54767;
-}
-
-.work_main {
-  font-size: 20px;
 }

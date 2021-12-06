@@ -1,16 +1,45 @@
 .main {
   width: 100%;
   object-fit: cover;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* height: 100%; */
+
+  height: 175vh;
+}
+
+.second {
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: 100%;
+}
+
+.left {
+  width: 80px;
+  margin-top: 17%;
 }
 
 .road {
-  margin-top: 50px;
-  width: 70%;
+  width: 200px;
   z-index: 2;
 }
+
+.right {
+  display: inline-block;
+  margin-top: 50%;
+}
+
+.tras_img {
+  width: 80px;
+}
+.about_img {
+  margin-top: 220%;
+}
+.ctrlf_img {
+  width: 70px;
+}
+
+/* 백업 */
 
 .introduction {
   position: absolute;

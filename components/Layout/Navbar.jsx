@@ -15,7 +15,7 @@ export default function Nav() {
   return (
     <div className={styles.nav}>
       <div className={styles.nav__logo} onClick={moveToHome}>
-        JSH-Portfolio
+        JSH
       </div>
       <div className={styles.nav__menu} onClick={showMenu}></div>
       {onMenu && <Menu setOnMenu={setOnMenu} />}

@@ -6,6 +6,6 @@ export default function Workdetail() {
   const [work, setWork] = useState(null);
   useEffect(() => {
     setWork(document.location.href.split("/")[4]);
-  }, []);
+  }, [document.location.href]);
   return <>{work == "tras" ? <Tras /> : <Ctrlf />}</>;
 }

@@ -23,10 +23,13 @@ function MyApp({ Component, pageProps }) {
         ></meta>
       </Head>
       {splash && <Splash />}
-      <Nav />
-      <Component {...pageProps} />
+      {!splash && (
+        <>
+          {" "}
+          <Nav /> <Component {...pageProps} /> <Footer />{" "}
+        </>
+      )}
       <TopScroll id="scroll" />
-      <Footer />
     </>
   );
 }
