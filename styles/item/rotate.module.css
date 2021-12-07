@@ -13,13 +13,14 @@
 
 .box {
   height: 50px;
-  overflow: scroll;
+  overflow: hidden;
   -ms-overflow-style: none;
   margin: 20px 0;
 }
 
 .text {
   font-size: 46px;
+  margin: 1px 0;
 }
 
 .box::-webkit-scrollbar {

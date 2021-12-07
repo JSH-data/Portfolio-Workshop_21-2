@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import TextList from "../Item/TextList";
 import styles from "../../styles/item/rotate.module.css";
 
@@ -10,9 +10,6 @@ export default function Rotate() {
       top: h,
       behavior: "smooth",
     });
-  };
-  const test = () => {
-    console.log(document.querySelector(".asddd"));
   };
   useEffect(() => {
     const rotateText = setInterval(() => {

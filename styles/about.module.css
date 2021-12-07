@@ -1,17 +1,90 @@
+.about__main {
+  margin-top: 110px;
+}
+
 .title__main {
-  font-size: 40px;
   color: #f54767;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 80px 0;
+  text-align: center;
 }
 
 .title__sub {
-  font-size: 30px;
-  font-weight: bold;
-  color: #323875;
-  text-align: end;
+  margin: 80px 0 60px 0;
+  text-align: center;
+  color: #f54767;
 }
 
+.goal {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 20px 30px 20px;
+  color: #f54767;
+}
+
+.goal__text {
+  width: 100%;
+  padding: 20px 20px;
+  line-height: 1.4;
+  font-size: 19px;
+  text-align: justify;
+  background-color: #bfd5db;
+  margin-bottom: 50px;
+  white-space: pre-wrap;
+}
+
+.img__wrapper {
+  display: flex;
+}
+
+.img {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.background {
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  touch-action: none;
+  position: absolute;
+}
+
+.skill__modal {
+  height: 200px;
+  border-radius: 20px;
+  width: 300px;
+  position: fixed;
+  top: 35%;
+  left: 10%;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 6px 7px 11px 1px rgba(0, 0, 0, 0.48);
+  box-shadow: 6px 7px 11px 1px rgba(0, 0, 0, 0.48);
+  justify-content: center;
+  text-align: center;
+}
+
+.skill__container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  background-color: #bfd5db;
+  margin-bottom: 60px;
+}
+
+.skill {
+  width: 50%;
+}
+
+.skill__title {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+/* 이전 작업물 */
 .skill__name {
   font-size: 18px;
   margin: 15px 0;
@@ -30,20 +103,17 @@
   padding-left: 0px;
 }
 
-.goal {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
 .list {
-  padding-left: 0;
 }
 
 .education,
 .award {
-  margin-bottom: 10px;
+  margin: 10px 0;
   font-size: 16px;
+}
+
+.award {
+  text-align: end;
 }
 
 .head {
@@ -52,10 +122,4 @@
 
 .ux {
   text-align: end;
-}
-
-.goal__text {
-  font-size: 19px;
-  padding-bottom: 20px;
-  text-align: justify;
 }

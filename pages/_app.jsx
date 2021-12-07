@@ -1,3 +1,4 @@
+import smoothscroll from "smoothscroll-polyfill";
 import Head from "next/head";
 import Nav from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
@@ -10,6 +11,7 @@ function MyApp({ Component, pageProps }) {
   const [splash, setSplash] = useState(true);
 
   useEffect(() => {
+    smoothscroll.polyfill();
     setTimeout(() => {
       setSplash(false);
     }, 2500);

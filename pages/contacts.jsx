@@ -1,4 +1,3 @@
-import Contact from "../components/Contact/Contact";
 import { useEffect } from "react";
 import styles from "../styles/contact.module.css";
 
@@ -12,36 +11,62 @@ export default function Contacts() {
 
   return (
     <main className={styles.contact}>
-      <div className={`${styles.content} ${styles.left}`}>
+      <div>
         <img
-          src="/images/contact/github.png"
-          id={styles.gits}
-          className={`${styles.contact__icon} ${styles.gits}`}
+          src="/images/contact/textleft.png"
+          className={`${styles.bubble}`}
         />
-        <div className={styles.contact__text}>Github</div>
+        <div className={styles.itemleft}>
+          <img
+            src="/images/contact/github.png"
+            id={styles.gits}
+            className={`${styles.contact__icon} ${styles.gits}`}
+          />
+          <div className={styles.contact__text}>Github</div>
+        </div>
       </div>
-      <div className={`${styles.content} ${styles.right}`}>
+
+      <div>
         <img
-          src="/images/contact/linked.png"
-          className={styles.contact__icon}
+          src="/images/contact/textright.png"
+          className={`${styles.bubble} ${styles.blue}`}
         />
-        <div className={styles.contact__text}>LinkedIn</div>
+        <div className={styles.item}>
+          <img
+            src="/images/contact/linked.png"
+            className={styles.contact__icon}
+          />
+          <div className={styles.contact__text}>LinkedIn</div>
+        </div>
       </div>
-      <div className={`${styles.content} ${styles.left}`}>
+
+      <div>
         <img
-          src="/images/contact/notion.png"
-          className={styles.contact__icon}
+          src="/images/contact/textleft.png"
+          className={`${styles.bubble}`}
         />
-        <div className={styles.contact__text}>Notion Blog</div>
+        <div className={styles.itemleft}>
+          <img
+            src="/images/contact/notion.png"
+            className={styles.contact__icon}
+          />
+          <div className={styles.contact__text}>Notion Blog</div>
+        </div>
       </div>
-      <div className={`${styles.content} ${styles.right}`}>
-        <img src="/images/contact/email.png" className={styles.contact__icon} />
-        <div className={styles.contact__text}>Email</div>
+
+      <div>
+        <img
+          src="/images/contact/textright.png"
+          className={`${styles.bubble} ${styles.blue}`}
+        />
+        <div className={styles.item}>
+          <img
+            src="/images/contact/email.png"
+            className={styles.contact__icon}
+          />
+          <span className={styles.contact__text}>Email</span>
+        </div>
       </div>
-      <img
-        src="/images/contact/man.png"
-        className={`${styles.img} ${styles.man}`}
-      />
     </main>
   );
 }

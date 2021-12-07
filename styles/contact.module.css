@@ -1,14 +1,9 @@
 .contact {
-  padding-top: 20px;
-  display: flex;
+  margin-top: 100px;
+  padding: 0 10px;
+  /* display: flex;
   justify-items: center;
-  flex-direction: column;
-}
-
-.chat {
-  margin-bottom: 10px;
-  width: 75%;
-  align-self: center;
+  flex-direction: column; */
 }
 
 .left {
@@ -16,39 +11,20 @@
 }
 
 .right {
-  align-self: center;
   background-image: url("../public/images/contact/textright.png");
-}
-
-.man {
   align-self: flex-end;
-  width: 75%;
-}
-
-.container {
-  width: 100%;
+  justify-content: end;
 }
 
 .content {
   display: flex;
-  width: 70%;
+  width: 90%;
   height: 90px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   align-items: center;
 }
-
-/* .content {
-  display: flex;
-  width: 100%;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  align-items: center;
-  margin-bottom: 20px;
-} */
 
 .contact .contact__icon:nth-child(1) {
   width: 40px;
@@ -64,4 +40,38 @@
 
 .contact__text {
   font-size: 19px;
+}
+
+.right .contact__text {
+  margin-right: 10%;
+}
+
+/* 새거 */
+.bubble {
+  width: 230px;
+  height: 80px;
+}
+
+.blue {
+  margin-left: 36%;
+}
+.contact__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -65px;
+  right: -120px;
+}
+
+.itemleft {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -65px;
+  right: 15px;
 }
