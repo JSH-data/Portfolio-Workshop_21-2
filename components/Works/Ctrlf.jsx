@@ -66,6 +66,10 @@ export default function Ctrlf() {
               className={styles.content__img}
               src="/images/work/ctrlf_plan.png"
             />
+            <img
+              src="/images/work/ctrlf_trello.png"
+              className={styles.image__main}
+            />
 
             <p className={styles.content__text}>{work.report}</p>
           </div>
@@ -79,17 +83,14 @@ export default function Ctrlf() {
               src="/images/work/ctrlf_swea.png"
               className={styles.image__main}
             />
-            <img
-              src="/images/work/ctrlf_trello.png"
-              className={styles.image__main}
-            />
+
             <p className={styles.content__text}>{work.develop}</p>
           </div>
           <div className={styles.content}>
             <h3 className={styles.content__title}>Problems</h3>
             <img
-              src="/images/work/tras_machine.png"
-              className={styles.content__img}
+              src="/images/work/ctrlf_issue.png"
+              className={styles.image__main}
             />
             <p className={styles.content__text}>{work.difficult}</p>
           </div>

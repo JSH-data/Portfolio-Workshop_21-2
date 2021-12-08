@@ -5,6 +5,7 @@ export default function Works() {
   return (
     <>
       <main className={styles.work__list}>
+        <h1 className={styles.works__title}>Works</h1>
         <div className={styles.works__catergory}>
           <span>
             Develop<div className={styles.deco}></div>

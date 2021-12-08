@@ -3,7 +3,7 @@
 }
 
 .title__main {
-  color: #f54767;
+  color: #323875;
   font-weight: bold;
   margin: 80px 0;
   text-align: center;
@@ -35,12 +35,13 @@
 
 .img__wrapper {
   display: flex;
+  margin-top: 70px;
 }
 
 .img {
   margin: 0 auto;
   width: 60%;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .background {
@@ -56,15 +57,28 @@
 .skill__modal {
   height: 200px;
   border-radius: 20px;
-  width: 300px;
+  width: 330px;
   position: fixed;
   top: 35%;
-  left: 10%;
+  left: 6.5%;
   background-color: #f2f2f2;
   -webkit-box-shadow: 6px 7px 11px 1px rgba(0, 0, 0, 0.48);
   box-shadow: 6px 7px 11px 1px rgba(0, 0, 0, 0.48);
   justify-content: center;
   text-align: center;
+  animation: 0.7s ease 0s 1 modal;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .skill__container {
@@ -80,16 +94,28 @@
 }
 
 .skill__title {
+  font-size: 21px;
+  margin: 30px 17px;
+  padding: 10px 0;
+  /* border: 0.1px solid #f2f2f2; */
+  -webkit-box-shadow: 0px 6px 9px -2px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 6px 9px -2px rgba(0, 0, 0, 0.52);
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.skill__name {
+  margin: 20px 0 20px 0;
+  font-weight: bold;
   font-size: 20px;
-  margin: 30px 0;
+  color: #323875;
+}
+
+.skill__text {
+  white-space: pre-wrap;
 }
 
 /* 이전 작업물 */
-.skill__name {
-  font-size: 18px;
-  margin: 15px 0;
-  color: #323875;
-}
 
 .skill__img {
   width: 50px;

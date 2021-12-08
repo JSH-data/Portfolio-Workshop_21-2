@@ -10,11 +10,11 @@
   right: 0;
   left: 40%;
   position: relative;
-  opacity: 40%;
-  width: 50px;
+  opacity: 30%;
+  width: 56px;
   height: 20px;
   bottom: 17px;
-  background-color: aqua;
+  background-color: #6874a0;
   z-index: 1;
 }
 
@@ -22,11 +22,15 @@
   font-size: larger;
   font-weight: bold;
   z-index: 2;
+  font-size: 23px;
 }
 
 .footer__icons {
   width: 73%;
   object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
@@ -38,4 +42,12 @@
   font-size: medium;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.icon {
+  width: 35px;
+  margin: 10px 20px 20px 20px;
+}
+.git {
+  width: 50px;
 }

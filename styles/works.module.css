@@ -1,5 +1,11 @@
 .work__list {
   width: 100%;
+  margin-top: 90px;
+}
+
+.works__title {
+  color: #f54767;
+  text-align: center;
 }
 
 .works__catergory {
@@ -18,12 +24,12 @@
 .deco {
   width: 40px;
   height: 20px;
-  background-color: blue;
+  background-color: #db7b7b;
   position: relative;
   top: -35%;
   right: -35%;
   z-index: 1;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 /* 컴포넌트 */
@@ -37,19 +43,24 @@
   align-items: center;
 }
 
-.work__image,
 .work__title,
 .work__summary {
   width: 90%;
 }
 
+.work__image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .work__title {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #323875;
 }
 
 .work__summary {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }

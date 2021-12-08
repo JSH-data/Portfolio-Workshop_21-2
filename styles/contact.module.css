@@ -61,11 +61,12 @@
 }
 
 .item {
-  display: flex;
-  align-items: center;
   position: relative;
   top: -65px;
-  right: -120px;
+  right: -140px;
+  width: 40%;
+  display: flex;
+  align-items: center;
 }
 
 .itemleft {

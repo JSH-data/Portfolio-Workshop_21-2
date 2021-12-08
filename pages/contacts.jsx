@@ -31,13 +31,13 @@ export default function Contacts() {
           src="/images/contact/textright.png"
           className={`${styles.bubble} ${styles.blue}`}
         />
-        <div className={styles.item}>
-          <img
-            src="/images/contact/linked.png"
-            className={styles.contact__icon}
-          />
-          <div className={styles.contact__text}>LinkedIn</div>
-        </div>
+      </div>
+      <div className={styles.item}>
+        <img
+          src="/images/contact/linked.png"
+          className={styles.contact__icon}
+        />
+        <span className={styles.contact__text}>LinkedIn</span>
       </div>
 
       <div>
