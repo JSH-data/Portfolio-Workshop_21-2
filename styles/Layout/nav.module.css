@@ -17,6 +17,7 @@
   color: #f54767;
   font-size: 33px;
   font-weight: bold;
+  font-family: cultureB;
 }
 
 .nav__menu {
@@ -24,9 +25,4 @@
   background-size: cover;
   width: 30px;
   height: 30px;
-}
-
-.menu__test {
-  /* background: no-repeat center url("../../public/test/menus.png"); */
-  /* background-size: contain; */
 }

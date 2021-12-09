@@ -31,6 +31,7 @@ export default function Ctrlf() {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            className={styles.youtube}
           ></iframe>
           <div className={styles.content}>
             <h3 className={styles.content__title}>Background</h3>

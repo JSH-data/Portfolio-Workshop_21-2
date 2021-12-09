@@ -9,6 +9,18 @@
   src: url("../public/fonts/NIXGONFONTSM2.0.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "cultureR";
+  font-weight: normal;
+  src: url("../public/fonts/cultureRegular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "cultureB";
+  font-weight: bold;
+  src: url("../public/fonts/cultureBold.ttf") format("opentype");
+}
+
 html,
 body {
   padding: 0;
@@ -47,7 +59,8 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  animation: 1s ease 1.5s 1 slideout;
+
+  animation: slidein 1.5s 0.5s 1 ease-in normal both running;
 }
 
 @keyframes slideout {
@@ -62,7 +75,7 @@ a {
 
 #splash__img {
   width: 80px;
-  animation: 1s ease 0s 1 running slidein;
+  /* animation: 1s ease 0s 1 running slidein; */
 }
 
 #splash__text {
@@ -70,16 +83,22 @@ a {
   font-weight: bold;
   position: relative;
   top: -105px;
-  animation: 0s ease 0s 1 running slidein;
+  /* animation: 0s ease 0s 1 running slidein; */
 }
 
 @keyframes slidein {
-  from {
+  0% {
     opacity: 0;
   }
 
-  to {
+  30% {
     opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -131,4 +150,21 @@ a {
     transform: translateX(0px);
     opacity: 1;
   }
+}
+
+.pop {
+  animation: popup 0.7s 0.5s 1 ease-in normal both running;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.email {
+  display: none;
 }

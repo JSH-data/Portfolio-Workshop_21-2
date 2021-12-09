@@ -1,3 +1,7 @@
+.youtube {
+  width: 100%;
+}
+
 .work_main {
   margin-top: 120px;
   font-size: 20px;
@@ -8,13 +12,15 @@
 }
 
 .title {
-  color: #f54767;
+  color: #1d1a17;
+  opacity: 0.8;
   text-align: center;
 }
 
 .sub__title {
   color: #f54767;
   text-align: center;
+  /* font-family: ; */
 }
 
 .duration {
@@ -27,14 +33,15 @@
 }
 
 .content {
-  margin: 70px auto;
+  margin: 60px auto;
 }
 
 .content__title {
   color: #f54767;
   width: 87%;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  font-family: cultureB;
 }
 
 .content__img {

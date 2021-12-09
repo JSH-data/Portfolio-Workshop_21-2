@@ -76,7 +76,7 @@ export default function About() {
         {designCom && <Skill data={DESIGN} closeMethod={setDesignCom} />}
 
         <div className={styles.img__wrapper}>
-          <img src="/images/about/car.png" className={`${styles.img}`} />
+          <img src="/images/about/car.png" className={`${styles.img} car`} />
         </div>
 
         <div className={styles.goal}>Education</div>

@@ -6,6 +6,7 @@
 .works__title {
   color: #f54767;
   text-align: center;
+  font-family: cultureB;
 }
 
 .works__catergory {
@@ -58,6 +59,7 @@
   font-weight: 700;
   margin-bottom: 10px;
   color: #323875;
+  font-family: cultureR;
 }
 
 .work__summary {

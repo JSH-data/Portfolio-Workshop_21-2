@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     smoothscroll.polyfill();
     setTimeout(() => {
       setSplash(false);
-    }, 2500);
+    }, 2000);
   }, []);
   return (
     <>

@@ -1,0 +1,14 @@
+.reference {
+  margin-top: 120px;
+  padding: 0 20px;
+}
+
+.wrapper {
+  width: 300px;
+  overflow: auto;
+}
+
+.title {
+  opacity: 0.7;
+  font-family: cultureR;
+}
