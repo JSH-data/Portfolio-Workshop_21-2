@@ -59,7 +59,8 @@
   font-weight: 700;
   margin-bottom: 10px;
   color: #323875;
-  font-family: cultureR;
+  font-family: cultureB;
+  font-weight: bold;
 }
 
 .work__summary {
